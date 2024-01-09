@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Luxury';
+    /*a name to be used later*/
+    src: url('Leyton-Bold.otf');
+    /*URL to font*/
+}
+
+.con {
+    margin-left: 20px;
+    display: flex;
+}
+
+.h2text {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: "Luxury";
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: #d6ad60;
+}
+
+.h3text {
+    margin-top: 45px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffebb0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffefbf;
+}
+
+a:hover {
+    color: rgb(246, 246, 195);
+    text-shadow: 1px 1px 2px wheat;
+    transition: all ease 0.75s;
+}
+
+.contactlink {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 43px;
+    color: #d6ad60;
+    margin-left: 30px;
+}
+
+.homelink {
+    margin-top: 43px;
+    color: #d6ad60;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 500px;
+}
+
+.portlink {
+    margin-top: 43px;
+    color: #d6ad60;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+}
+
+.hom {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hom h1 {
+    /* margin-left: 90px; */
+    color: #F6F5C9;
+}
+
+.hom p {
+    /* margin-left: 90px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #add5a5;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.mod {
+    text-align: center;
+    /* margin-left: 80px; */
+    /* margin: auto; */
+    color: #F6F5C9;
+}
+
+.tv {
+    text-align: center;
+    /* margin-left: 80px; */
+    color: #F6F5C9;
+}
+
+.ward {
+    text-align: center;
+    /* margin-left: 80px; */
+    color: #F6F5C9;
+}
+
+.tv img,
+.ward img,
+.mod img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+
+.social{
+    margin-top: 100px;
+    margin-left: calc(50% - 80px);
+    height:100px;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+}
+
+.fb{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    fill: #ffebb0;
+}
+
+.insta{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    fill: #ffebb0;
+}
+
+.linkedin{
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    fill: #ffebb0;
+}
+
+.fb:hover{
+    fill: aliceblue;
+    transition: fill ease 0.5s;
+}
+
+.insta:hover{
+    fill: aliceblue;
+    transition: fill ease 0.5s;
+}
+
+.linkedin:hover{
+    fill: aliceblue;
+    transition: fill ease 0.5s;
+}
+
+.pages{
+    margin-left: calc(50% - 185px);
+    height: 100px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+.contactlink1{
+    color: #ffebb0;
+}
+
+.cop{
+    color: #ffebb0;
+    text-align: center;
+    height: 80px;
+}
+
+.cop span{
+    font-family: 'Luxury';
+}

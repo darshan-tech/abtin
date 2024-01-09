@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Luxury';
+    /*a name to be used later*/
+    src: url('Leyton-Bold.otf');
+    /*URL to font*/
+}
+
+.con {
+    margin-left: 20px;
+    display: flex;
+}
+
+.h2text {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: "Luxury";
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: #d6ad60;
+}
+
+.h3text {
+    margin-top: 45px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffebb0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffefbf;
+}
+
+a:hover {
+    color: rgb(246, 246, 195);
+    text-shadow: 1px 1px 2px wheat;
+    transition: all ease 0.75s;
+}
+
+.contactlink {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 43px;
+    color: #d6ad60;
+    margin-left: 30px;
+}
+
+.homelink {
+    margin-top: 43px;
+    color: #d6ad60;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 500px;
+}
+
+.portlink {
+    margin-top: 43px;
+    color: #d6ad60;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+}
+
+.imgcon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 550px;
+}
+
+.imgcon img{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height:100%;
+}
+
+.hom{
+    margin-top: 50px;
+}
+
+.hom h1 {
+    margin-left: 90px;
+    color: #F6F5C9;
+}
+
+.hom p {
+    margin-left: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #add5a5;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contact button {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    background-color: #d6ad60;
+    border-radius: 50px;
+    border: none;
+}
+
+.contact button:hover {
+    background-color: #ffefbf;
+    transition: all ease 0.5s;
+}
+
+.p2 h1 {
+    margin-left: 90px;
+    margin-top: 50px;
+    color: #F6F5C9;
+}
+
+
+.p2 p {
+    margin-left: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #add5a5;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.newgrid {
+    width: calc(100% - 160px);
+    padding: 10px;
+    margin-left: 70px;
+    color: #add5a5;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px 50px 100px 30px;
+    gap: 30px;
+}
+
+/*  color - #a6979c */
+
+.newgrid img {
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.a {
+    overflow: hidden;
+    line-height: 1.4;
+    font-size: large;
+}
+
+.b {
+    font-size: xx-large;
+    color: #F6F5C9;
+}
+
+.imtext {
+    width: calc(100% - 160px);
+    padding: 20px;
+    max-height: 350px;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: #add5a5;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+.imtext img {
+    height: 60%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.imtext1 {
+    font-size: large;
+    margin-top: 20px;
+    max-width: 90%;
+    line-height: 1.4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cov {
+    margin-top: 50px;
+    position: relative;
+    margin-left: 60px;
+    height: 400px;
+    width: calc(100% - 140px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cov img {
+    /* z-index: -1; */
+    filter: blur(5px);
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.cov p {
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: calc(100% - 200px);
+    top: 20px;
+    left: 100px;
+    font-size: 42px;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.784);
+}
+
+.cov .b {
+    top: 200px;
+    font-size: x-large;
+}
+
+.cov button {
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 300px;
+    width: 300px;
+    height: 50px;
+    left: 500px;
+    font-size: x-large;
+    background-color: #d6ad60;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.emp {
+    height: 100px;
+}
+
+.social{
+    margin-left: calc(50% - 80px);
+    height:100px;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+}
+
+.fb{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    fill: #ffebb0;
+}
+
+.insta{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    fill: #ffebb0;
+}
+
+.linkedin{
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    fill: #ffebb0;
+}
+
+.fb:hover{
+    fill: aliceblue;
+    transition: fill ease 0.5s;
+}
+
+.insta:hover{
+    fill: aliceblue;
+    transition: fill ease 0.5s;
+}
+
+.linkedin:hover{
+    fill: aliceblue;
+    transition: fill ease 0.5s;
+}
+
+.pages{
+    margin-left: calc(50% - 185px);
+    height: 100px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+.contactlink1{
+    color: #ffebb0;
+}
+
+.cop{
+    color: #ffebb0;
+    text-align: center;
+    height: 80px;
+}
+
+.cop span{
+    font-family: 'Luxury';
+}
